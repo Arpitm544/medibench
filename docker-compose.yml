@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: medibench-postgres
+    environment:
+      POSTGRES_USER: medibench
+      POSTGRES_PASSWORD: medibench_password
+      POSTGRES_DB: medibench
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medibench -d medibench"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    container_name: medibench-api
+    command: uvicorn medibench.api.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://medibench:medibench_password@postgres:5432/medibench
+      - APP_ENV=production
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  dashboard:
+    build: .
+    container_name: medibench-dashboard
+    command: streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://medibench:medibench_password@postgres:5432/medibench
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
