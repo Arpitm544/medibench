@@ -1,0 +1,1205 @@
+[
+  {
+    "run_id": "RUN-20261124091750",
+    "model_name": "Test-Bench-Model",
+    "started_at": "2026-11-24T09:17:50.267860",
+    "completed_at": "2026-11-24T09:17:50.639981",
+    "total_questions": 10,
+    "passed_questions": 10,
+    "overall_score_pct": 100.0,
+    "results": [
+      {
+        "benchmark_id": "MED-016",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 48.83,
+        "tokens_used": 68,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-017",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 38.81,
+        "tokens_used": 68,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-018",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 27.21,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-019",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 41.85,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-020",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 38.28,
+        "tokens_used": 77,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-021",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 23.69,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-022",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 45.72,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-023",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 36.85,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-024",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 19.44,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-025",
+        "model": "Test-Bench-Model",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 35.13,
+        "tokens_used": 70,
+        "error_message": null
+      }
+    ]
+  },
+  {
+    "run_id": "RUN-001",
+    "model_name": "MediBench-Clinical-LLM",
+    "started_at": "2026-11-24T09:18:02.886904",
+    "completed_at": "2026-11-24T09:18:05.124719",
+    "total_questions": 60,
+    "passed_questions": 56,
+    "overall_score_pct": 92.5,
+    "results": [
+      {
+        "benchmark_id": "MED-001",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 42.24,
+        "tokens_used": 63,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-002",
+        "model": "MediBench-Clinical-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 13.1,
+        "tokens_used": 64,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-003",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 30.86,
+        "tokens_used": 61,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-004",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 40.84,
+        "tokens_used": 63,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-005",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 34.26,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-006",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 38.49,
+        "tokens_used": 60,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-007",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 33.69,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-008",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 52.08,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-009",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 43.06,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-010",
+        "model": "MediBench-Clinical-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 30.84,
+        "tokens_used": 65,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-011",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 26.68,
+        "tokens_used": 61,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-012",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 34.64,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-013",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 23.4,
+        "tokens_used": 71,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-014",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 49.98,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-015",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 48.81,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-016",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 27.05,
+        "tokens_used": 68,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-017",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 40.25,
+        "tokens_used": 68,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-018",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 32.1,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-019",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 18.75,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-020",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 27.61,
+        "tokens_used": 77,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-021",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 29.89,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-022",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 50.95,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-023",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 36.33,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-024",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 29.29,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-025",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 49.37,
+        "tokens_used": 70,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-026",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 14.06,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-027",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 50.14,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-028",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 42.82,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-029",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 41.12,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-030",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 47.44,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-031",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 17.92,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-032",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 36.31,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-033",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 48.57,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-034",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 46.46,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-035",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 24.79,
+        "tokens_used": 63,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-036",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 22.38,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-037",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 42.58,
+        "tokens_used": 59,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-038",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 25.23,
+        "tokens_used": 58,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-039",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 25.28,
+        "tokens_used": 60,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-040",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 48.11,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-041",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 26.35,
+        "tokens_used": 59,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-042",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 42.59,
+        "tokens_used": 63,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-043",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 50.02,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-044",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 51.13,
+        "tokens_used": 76,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-045",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 12.21,
+        "tokens_used": 82,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-046",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 31.55,
+        "tokens_used": 80,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-047",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 24.37,
+        "tokens_used": 80,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-048",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 18.72,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-049",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 43.45,
+        "tokens_used": 92,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-050",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 28.37,
+        "tokens_used": 92,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-051",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 24.91,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-052",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 14.26,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-053",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 31.81,
+        "tokens_used": 80,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-054",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 47.15,
+        "tokens_used": 73,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-055",
+        "model": "MediBench-Clinical-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 42.94,
+        "tokens_used": 73,
+        "error_message": "MISSING_REQUIRED_CONCEPTS: Missed ['risk adjustment', 'severity', 'complexity', 'sicker', 'unfair', 'penalized']"
+      },
+      {
+        "benchmark_id": "MED-056",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 23.86,
+        "tokens_used": 111,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-057",
+        "model": "MediBench-Clinical-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 33.78,
+        "tokens_used": 96,
+        "error_message": "MISSING_REQUIRED_CONCEPTS: Missed ['protocol', 'untested', 'monitoring', 'standard of care', 'confounding']"
+      },
+      {
+        "benchmark_id": "MED-058",
+        "model": "MediBench-Clinical-LLM",
+        "score": 0.5,
+        "status": "passed",
+        "latency_ms": 51.4,
+        "tokens_used": 143,
+        "error_message": "PARTIAL_CONCEPTS_MATCHED: ['Cohort A', 'per dollar'] of ['Cohort A', 'per dollar', 'cost-effective', 'efficiency']"
+      },
+      {
+        "benchmark_id": "MED-059",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 35.63,
+        "tokens_used": 98,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-060",
+        "model": "MediBench-Clinical-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 40.98,
+        "tokens_used": 126,
+        "error_message": null
+      }
+    ]
+  },
+  {
+    "run_id": "RUN-002",
+    "model_name": "General-Baseline-LLM",
+    "started_at": "2026-11-24T09:18:05.151255",
+    "completed_at": "2026-11-24T09:18:07.408979",
+    "total_questions": 60,
+    "passed_questions": 45,
+    "overall_score_pct": 74.17,
+    "results": [
+      {
+        "benchmark_id": "MED-001",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 41.33,
+        "tokens_used": 63,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-002",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 46.58,
+        "tokens_used": 64,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-003",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 43.27,
+        "tokens_used": 61,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-004",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 33.23,
+        "tokens_used": 63,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-005",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 18.87,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-006",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 12.39,
+        "tokens_used": 60,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-007",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 14.59,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-008",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 38.96,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-009",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 27.82,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-010",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 32.23,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-011",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 14.93,
+        "tokens_used": 61,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-012",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 46.75,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-013",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 49.91,
+        "tokens_used": 71,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-014",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 25.82,
+        "tokens_used": 67,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-015",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 49.95,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-016",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 50.54,
+        "tokens_used": 68,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-017",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 15.08,
+        "tokens_used": 68,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-018",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 45.68,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-019",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 16.08,
+        "tokens_used": 72,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-020",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 34.69,
+        "tokens_used": 77,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-021",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 48.25,
+        "tokens_used": 69,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-022",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 19.53,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-023",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 28.16,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-024",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 55.08,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-025",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 30.91,
+        "tokens_used": 73,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-026",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 32.45,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-027",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 26.45,
+        "tokens_used": 66,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-028",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 40.26,
+        "tokens_used": 62,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-029",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 24.6,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-030",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 48.98,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-031",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 50.17,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-032",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 26.76,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-033",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 51.09,
+        "tokens_used": 64,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-034",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 34.71,
+        "tokens_used": 65,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-035",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 39.87,
+        "tokens_used": 66,
+        "error_message": "CATEGORICAL_MISMATCH: Expected 'metformin', got 'Based on preliminary dataset screening, the value appears indeterminate or deviated from target.'"
+      },
+      {
+        "benchmark_id": "MED-036",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 13.32,
+        "tokens_used": 69,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-037",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 15.3,
+        "tokens_used": 59,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-038",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 38.86,
+        "tokens_used": 58,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-039",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 43.59,
+        "tokens_used": 60,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-040",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 44.78,
+        "tokens_used": 65,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-041",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 48.18,
+        "tokens_used": 62,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-042",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 38.25,
+        "tokens_used": 63,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-043",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 33.2,
+        "tokens_used": 67,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-044",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 44.99,
+        "tokens_used": 76,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-045",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 48.18,
+        "tokens_used": 70,
+        "error_message": "MISSING_REQUIRED_CONCEPTS: Missed ['multiple', 'encounters', 'visits', 'patient', 'independent']"
+      },
+      {
+        "benchmark_id": "MED-046",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 49.07,
+        "tokens_used": 80,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-047",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 46.27,
+        "tokens_used": 83,
+        "error_message": "PARSE_ERROR: No numerical value could be extracted from response."
+      },
+      {
+        "benchmark_id": "MED-048",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 20.92,
+        "tokens_used": 69,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-049",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 48.45,
+        "tokens_used": 92,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-050",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 33.44,
+        "tokens_used": 79,
+        "error_message": "MISSING_REQUIRED_CONCEPTS: Missed ['inpatient', 'higher', 'readmission']"
+      },
+      {
+        "benchmark_id": "MED-051",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 31.05,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-052",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 50.45,
+        "tokens_used": 67,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-053",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 23.87,
+        "tokens_used": 80,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-054",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 18.45,
+        "tokens_used": 73,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-055",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 19.15,
+        "tokens_used": 95,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-056",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 47.25,
+        "tokens_used": 111,
+        "error_message": null
+      },
+      {
+        "benchmark_id": "MED-057",
+        "model": "General-Baseline-LLM",
+        "score": 0.5,
+        "status": "passed",
+        "latency_ms": 38.72,
+        "tokens_used": 108,
+        "error_message": "PARTIAL_CONCEPTS_MATCHED: ['protocol', 'confounding'] of ['protocol', 'untested', 'monitoring', 'standard of care', 'confounding']"
+      },
+      {
+        "benchmark_id": "MED-058",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 31.37,
+        "tokens_used": 102,
+        "error_message": "MISSING_REQUIRED_CONCEPTS: Missed ['Cohort A', 'per dollar', 'cost-effective', 'efficiency']"
+      },
+      {
+        "benchmark_id": "MED-059",
+        "model": "General-Baseline-LLM",
+        "score": 0.0,
+        "status": "failed",
+        "latency_ms": 44.37,
+        "tokens_used": 86,
+        "error_message": "MISSING_REQUIRED_CONCEPTS: Missed ['current', 'live', 'contemporary', 'guidelines', 'historical']"
+      },
+      {
+        "benchmark_id": "MED-060",
+        "model": "General-Baseline-LLM",
+        "score": 1.0,
+        "status": "passed",
+        "latency_ms": 17.86,
+        "tokens_used": 126,
+        "error_message": null
+      }
+    ]
+  }
+]
